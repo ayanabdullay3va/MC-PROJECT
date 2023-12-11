@@ -1,0 +1,142 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.header-mc {
+  @media (max-width: 992px) {
+    max-width: auto;
+  }
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.nav-mc {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.image-mc {
+  height: 100px;
+}
+.img-cristmas {
+  display: flex;
+  justify-content: center;
+
+  margin: auto;
+  width: 30%;
+  height: auto;
+}
+.global-div-mc {
+  @media (max-width: 992px) {
+    display: none;
+    width: 100%;
+  }
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.top-headers {
+  @media (max-width: 992px) {
+    display: none;
+  }
+  width: 100% !important;
+}
+.top-headers Button {
+  @media (max-width: 992px) {
+    display: none;
+  }
+  margin: auto;
+  color: #ffbc0d;
+  display: flex;
+  gap: 50px;
+}
+
+.header-btn Button {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+
+  color: black;
+  font-weight: bold;
+}
+
+.end-header Button {
+  @media (max-width: 992px) {
+    display: none;
+  }
+  padding: 0;
+  margin: 10px auto;
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  color: #ffbc0d;
+  list-style: none;
+}
+
+.responseicon {
+  @media (max-width: 992px) {
+    display: none;
+  }
+  display: flex;
+}
+.menuicon {
+  display: none;
+  @media (max-width: 992px) {
+    display: block;
+  }
+}
+.profile {
+  display: flex;
+  margin-right: 0;
+}
+@media (max-width: 992px) {
+  .fav-icon1 {
+    display: none;
+
+    font-size: 40px;
+    margin: 10px;
+  }
+}
+.basket-icon {
+  @media (max-width: 992px) {
+    display: none;
+
+    font-size: 40px;
+    margin: 10px;
+  }
+  .login-icon {
+    font-size: 40px;
+    margin: 10px;
+  }
+  .reg-icon {
+    font-size: 40px;
+    margin: 10px;
+  }
+}
+.language {
+  position: relative;
+  bottom: 7px;
+}
+.email-div {
+  position: relative;
+  bottom: 2px;
+  right: 10px;
+}
+.karier-div {
+  position: relative;
+  bottom: 6px;
+  right: 49px;
+}

@@ -1,0 +1,325 @@
+body {
+  overflow-x: hidden;
+}
+
+.main-mc {
+  padding: 0;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.main-div {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+video {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+}
+
+.swipper-img1 img {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  height: 500px;
+}
+
+.swiper-image2 img {
+  margin: 0 auto;
+  height: 500px;
+  width: 60%;
+}
+.mc-card {
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+  object-fit: fill;
+  width: 100%;
+  padding: 50px;
+}
+.section-info {
+  @media (max-width: 992px) {
+    flex-direction: column;
+    margin: auto;
+  }
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.mc-cardimg img {
+  object-fit: fill;
+  width: 95%;
+}
+.mc-text {
+  @media (max-width: 992px) {
+  }
+  width: 30%;
+}
+.mc-text h2 {
+  @media (max-width: 992px) {
+  }
+  font-size: large;
+  color: black;
+}
+.mac-btn {
+  @media (max-width: 992px) {
+  }
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ffbc0d;
+  border-radius: 10px;
+  background-color: #ffbc0d;
+  color: white;
+  font-weight: bold;
+}
+.mac-btn:hover {
+  text-align: center;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.section-info2 {
+  @media (max-width: 992px) {
+    flex-direction: column;
+    margin: auto;
+  }
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.mc-cardimg2 img {
+  @media (max-width: 992px) {
+  }
+  object-fit: fill;
+  width: 92%;
+}
+.mc-text2 {
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+  width: 30%;
+}
+.mc-text2 h2 {
+  @media (max-width: 992px) {
+  }
+  font-size: xx-large;
+  color: black;
+}
+.mac-btn2 {
+  @media (max-width: 992px) {
+  }
+  cursor: pointer;
+
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ffbc0d;
+  border-radius: 10px;
+  background-color: #ffbc0d;
+  color: white;
+  font-weight: bold;
+}
+.mac-btn2:hover {
+  cursor: pointer;
+
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.section-card {
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+  width: 100%;
+  padding: 20px;
+}
+.card1 {
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  width: 80%;
+}
+.mc-card2 {
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+  width: 29%;
+  height: 500px;
+}
+.mc-card2 img {
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+  object-fit: fill;
+  width: 100%;
+  height: 150px;
+}
+.cardtext {
+  font-size: xx-large;
+  color: black;
+}
+.card-btn1 {
+  cursor: pointer;
+
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ffbc0d;
+  border-radius: 10px;
+  background-color: #ffbc0d;
+  color: white;
+  font-weight: bold;
+}
+.card-btn1:hover {
+  cursor: pointer;
+
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.mc-card3 {
+  @media (max-width: 992px) {
+    flex-direction: column;
+    width: 100%;
+  }
+  width: 29%;
+  height: 500px;
+}
+.mc-card3 img {
+  object-fit: fill;
+  width: 100%;
+  height: 150px;
+  @media (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+  }
+}
+.cardtext2 {
+  font-size: xx-large;
+  color: black;
+}
+.card-btn2 {
+  cursor: pointer;
+
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ffbc0d;
+  border-radius: 10px;
+  background-color: #ffbc0d;
+  color: white;
+  font-weight: bold;
+}
+.card-btn2:hover {
+  cursor: pointer;
+
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.mc-card4 {
+  width: 29%;
+  height: 500px;
+}
+.mc-card4 img {
+  object-fit: fill;
+  width: 100%;
+  height: 150px;
+}
+.cardtext3 {
+  font-size: xx-large;
+  color: black;
+}
+.card-btn3 {
+  cursor: pointer;
+
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ffbc0d;
+  border-radius: 10px;
+  background-color: #ffbc0d;
+  color: white;
+  font-weight: bold;
+}
+.card-btn3:hover {
+  cursor: pointer;
+
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+// .footer-card {
+
+//   display: flex;
+//   width: 100%;
+//   /* border: 1px solid black;
+//   box-sizing: border-box; */
+// }
+// .footer-card1 {
+//   margin: auto;
+//   width: 80%;
+//   /* border: 1px solid black;
+//   box-sizing: border-box; */
+// }
+// .footer-text ul li {
+//   font-size: medium;
+//   list-style: none;
+//   font-weight: bold;
+// }
+// .facebook-logo img {
+//   background-color: rgb(61, 61, 61);
+//   cursor: pointer;
+//   width: 40px;
+//   height: 40px;
+//   border-radius: 50%;
+// }
+// .facebook-logo img:hover {
+//   background-color: skyblue;
+//   cursor: pointer;
+//   width: 40px;
+//   height: 40px;
+//   border-radius: 50%;
+// }
